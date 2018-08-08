@@ -1,0 +1,161 @@
+/*Start Global  */
+ * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+ }
+ 
+ body{
+	 margin:0;
+	 padding:0;
+ }
+ 
+ .container{
+	width:1200px;
+	margin:auto;
+ } 
+ 
+  /*Eng Global  */
+  
+  
+ /* Start Header */
+ .header{
+	 overflow:hidden;
+	 font-size:17px;
+	 height:70px;
+	 background-color:#E9E7E8;
+  }
+  .header .brand{
+	  float:left;
+	  width:40%;
+	  
+  }
+  
+  .header .brand h2{
+	  margin-left:40px;
+	  color:#333;
+  }
+  
+  .header .brand h2 span{
+	  color:#CC3362;
+  }
+  
+  .header .links{
+	  float:left;
+	  width:60%;
+	  margin-bottom:25px;
+  }
+  
+ .header .links ul{
+	 margin:0;
+	 padding:0;
+ }
+  
+  .header .links li{
+	  display:inline-block;
+	  padding: 20px 0;
+	  margin:0 5px;
+	  margin-left:55px;
+	  color:#FFF;
+  }
+  
+  .header .links  a {
+	text-decoration: none;
+	color:#333;
+ }
+ 
+ .header .links  a:hover,
+ .header .links .active a{
+	color:#CC3362;
+	font-size: 17px;
+ }
+  /* End Header */
+  
+  
+  
+  /*Start food*/
+  .food{
+	  background-image: url('images/food.jpg');
+	  -webkit-background-size:cover; 
+	  -moz-background-size:cover; 
+	  background-size:cover; 
+	  height:800px;
+  }
+  /*End Food*/
+  
+  
+  /*Start Product*/
+  .product{
+	  background-color:#E9E7E8;
+  }
+  
+  .twist{
+	  padding:40px;
+	  margin-left:150px;
+  }
+  
+  .twist span{
+	  color:#444;
+	  font-size:25px;
+	  text-transform:uppercase;
+  }
+  
+  .twist img{
+	position:absolute;
+	right:300px;
+  }
+  
+  .twist h2{
+	  color:#CC3362;
+  }
+  
+  .twist p{
+	  color:#444;
+  }
+  
+  
+  /*End Product*/
+  
+  
+  /* Start About */
+	.about{
+		background-color:#C8C10E;
+		height:150px;
+		text-align:center;
+    }	
+  
+	.about .info img{
+		margin:20px 85px 5px 80px;
+	}
+	
+	.about .info span{
+		color:#FFF;
+		text-transform:uppercase;
+		font-size:20px;
+		margin:10px 67px;
+		margin-right:50px;
+		
+		
+	}
+	
+  /* End About */
+  
+  /*Start Footer */
+  .footer{
+	  background-color:#CC3362;
+	  height:180px;
+	  color:#FFF;
+	  text-align:center;
+	  padding:40px 0;	  
+  }
+  
+  .footer .social-sites i{
+	  color:#FFF; 
+	  margin:15px;
+  }
+  
+  .footer span{
+	  font-size:20px;
+  }
+  /*End Footer */
+  

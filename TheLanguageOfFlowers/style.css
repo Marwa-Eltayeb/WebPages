@@ -1,0 +1,114 @@
+/*Start Global*/
+body{
+	background-color:#FFC0Cb;
+	font-family:"Trebuchet MS", Verdana, serif;
+}
+
+.container{
+	width:750px;
+	margin:0 auto;
+}
+/*End Global*/
+
+/*Start Header*/
+.header{
+	background-image:url('header.jpg');
+	background-size:cover;
+	background-repeat:no-repeat;
+	height:200px;
+}
+
+.header h1{
+	margin-left:20px;
+	color:#FF69B4;
+}
+
+hr{
+	margin:15px 0;
+    background-color:#999;
+    height:1px;
+	width:750px;
+    border:0;
+  }
+/*End Header*/
+
+/*Start Main-Content*/
+.content{
+	overflow:hidden;
+}
+
+.info{
+	float:right;
+	width:73%;
+}
+
+.info table, th, td{
+	border: 1px solid #BBB;
+	border-collapse:collapse;
+	border-radius:5px;
+	margin-bottom:20px;
+}
+
+th, td{
+	padding:10px;
+	text-align:left;
+}
+
+th{
+	background-color:#C71585;
+	color:#FFF;
+}
+
+td{
+	color:#505050;
+	font-size:15px;
+}
+
+.pic img{
+	float:right;
+	height:620px;
+	margin-right:20px;
+}
+
+.info table:last-of-type{
+	margin-bottom:0;
+}
+
+.menu{
+	float:left;
+	width:20%;
+}
+
+.menu ul{
+	margin:0;
+	padding: 10px 0 10px 15px;
+}
+
+.menu ul li{
+	list-style-type:none;
+	padding-top: 20px;
+	font-size:20px;
+	color:#4169E1;
+}
+
+.menu a { 
+	font-weight: bold;
+	text-decoration: none
+}
+
+.menu a:hover,
+.menu .active a{
+	color: #C71585;
+	font-weight: bold;
+	text-decoration: underline
+}
+
+/*End Main-Content*/
+
+
+/*Start Footer*/
+.footer{
+	text-align:center;
+	color:#FF1493;
+}
+/*End Footer*/
